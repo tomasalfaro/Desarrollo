@@ -1,0 +1,4 @@
+SQLALCHEMY_TRACK_MODIFICATIONS = False
+SQLALCHEMY_RECORD_QUERIES = True
+DEV_DATABASE_URI='postgresql+psycopg2://juan:juan@localhost:5433/proyecto'
+PROD_DATABASE_URI='postgresql://juan:juan@localhost:5433/proyecto'
